@@ -1,0 +1,74 @@
+section {
+  min-width: 600px;
+}
+
+/* Container for each person */
+div {
+  width: 48%;
+  max-height: auto;
+  float: left;
+}
+
+/* Container for bio text */
+.bio-contianer{
+  height: 50%;
+  width: 48%;
+  margin: 0 1% 10px 1%;
+  max-height: auto;
+  min-height: 400px;
+  float: left;
+}
+
+/* Bio text */
+p {
+  line-height: 1.4em;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+/* Container for 3 icons */
+div div {
+  width: 100%;
+  
+}
+
+/* Icon Container */
+div div img {
+  float: left;
+  height: auto;
+  width: 17px;
+  margin-top: 2px;
+
+}
+
+#linkedin {
+  width: 22px;
+}
+
+/* Team Photos */
+div img {
+  width:50%;
+  border-radius: 10px;
+  float: left;
+  margin: 0px 20px 5px 0px;
+}
+
+div h2 {
+  font-family: 'Slackey', cursive;
+  margin-right: 15px;
+  float: left;
+}
+
+div a {
+  text-decoration-line: none;
+  font-size: 2em;
+  border-right: 10px;
+}
+
+a:hover li:hover {
+  color: navy;
+  border: 3px solid navy;
+  transition: .5s;
+}
+
+
